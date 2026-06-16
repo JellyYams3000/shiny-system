@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'ouvrie`res soldates';
+    src: url('ouvrieres-soldates.woff2') format('woff2'),
+        url('ouvrieres-soldates.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body{
+    background-color:antiquewhite;
+    background-image:url("monet_wandering.jpg");
+    background-size:5px;
+    font-family:cursive;
+}
+
+p{
+    color:brown;
+    background-color:skyblue;
+    font-size:25px;
+    border:25px groove rgb(255, 149, 184);
+    
+    /* padding is for internal element spacing */
+    padding:25px;
+    
+    /* margin is for external spacing of elements */
+    margin:80px;
+    
+    font-weight: bold;
+    line-height:30px;
+    letter-spacing:1px;
+    font-style:normal;
+}
+
+p:hover {
+    background-color:#acffcd;
+}
+
+h1 {
+    color:rgb(125, 0, 40);
+    font-size:75px;
+    font-family: "Iosevka Charon", monospace;
+    font-weight:lighter;
+}
+
+h2 {
+    font-family: 'ouvrie`res soldates';
+}
+
+.banner {
+    background-color:#ffd879;
+    font-size:40px;
+    text-align:center;
+}
+
+a{
+    background-color:white;
+    color:brown;
+    text-decoration:none;
+}
+
+a:hover {
+   background-color:brown;
+    color:antiquewhite;
+}
