@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+    max-width:100%;
+}
+
+body {
+    background-color:#ffff98;
+}
+
+img {
+  filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5));
+}
+
+.container {
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.cherry-container {
+    /*background-color: crimson;*/
+    position:relative;
+    width:200px;
+    height:200px;
+}
+
+.cherry {
+    position:absolute;
+    top:20px;
+    right:50px;
+    transform:rotate(10deg);
+}
+
+.cotton-candy-container {
+    /*background-color: aqua;*/
+    position:relative;
+    width:200px;
+    height:200px;
+}
+
+.cotton-candy {
+    position:absolute;
+    right:40px;
+    top:250px;
+    transform:rotate(-30deg)
+}
+
+.grape-container {
+    /*background-color: blueviolet;*/
+    position:relative;
+    width:200px;
+    height:200px;
+}
+
+.grape {
+    position:absolute;
+    right:50px;
+    top:100px;
+    transform:rotate(20deg)
+}
+
+.orange-container {
+    /*background-color: orange;*/
+    position:relative;
+    width:200px;
+    height:200px;
+}
+
+.orange {
+    position:absolute;
+    right:20px;
+    top:400px;
+    transform:rotate(110deg);
+}
+
+.sour-apple-container {
+    /*background-color: chartreuse;*/
+    position:relative;
+    width:200px;
+    height:200px;
+}
+
+.sour-apple {
+    position:absolute;
+    right:60px;
+    top:20px;
+    transform:rotate(-30deg)
+}
+
+.back {
+    /*background-color: orange;*/
+    position:fixed;
+    bottom:0;
+    left:0;
+    padding:20px;
+    font-family: "Big Fat One";
+}
