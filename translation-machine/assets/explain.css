@@ -1,0 +1,204 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width:100%;
+}
+
+body {
+  background-color: black;
+}
+
+.container {
+  display:inline-block;
+}
+
+.line1 {
+  color:#636262;
+  font-family: monospace;
+  overflow:hidden;
+  white-space: nowrap;
+  border-right: .15em solid #bebebe;
+  width:0;
+  
+  animation: typing 5s steps(27, end) forwards, blink-caret 1s step-end 5 forwards;
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent; }
+  50% { border-color: #999999; }
+}
+
+.line2 {
+  color:#636262;
+  font-family: monospace;
+  overflow:hidden;
+  white-space: nowrap;
+  border-right: .15em solid #999999;
+  width:0;
+  
+  animation: typing 5s steps(32, end) forwards, blink-caret 1s step-end 5 forwards;
+  animation-delay: 5s;
+}
+
+.line3 {
+  color:#636262;
+  font-family: monospace;
+  overflow:hidden;
+  white-space: nowrap;
+  border-right: .15em solid #999999;
+  width:0;
+  
+  animation: typing 5s steps(33, end) forwards, blink-caret 1s step-end 5 forwards;
+  animation-delay: 10s;
+}
+
+.line4 {
+  color:#636262;
+  font-family: monospace;
+  overflow:hidden;
+  white-space: nowrap;
+  border-right: .15em solid #999999;
+  width:0;
+  
+  animation: typing 5s steps(37, end) forwards, blink-caret 1s step-end 5 forwards;
+  animation-delay: 15s;
+}
+
+.line5 {
+  color:#636262;
+  font-family: monospace;
+  overflow:hidden;
+  white-space: nowrap;
+  border-right: .15em solid #999999;
+  width:0;
+  
+  animation: typing 5s steps(35, end) forwards, blink-caret 1s step-end 5 forwards;
+  animation-delay: 20s;
+}
+
+.line6 {
+  color:#636262;
+  font-family: monospace;
+  overflow:hidden;
+  white-space: nowrap;
+  border-right: .15em solid #999999;
+  width:0;
+  
+  animation: typing 5s steps(42, end) forwards, blink-caret 1s step-end 5 forwards;
+  animation-delay: 25s;
+}
+
+.line7 {
+  color:#636262;
+  font-family: monospace;
+  overflow:hidden;
+  white-space: nowrap;
+  border-right: .15em solid #999999;
+  width:0;
+  
+  animation: typing 5s steps(40, end) forwards, blink-caret 1s step-end 5 forwards;
+  animation-delay: 30s;
+}
+
+.line8 {
+  color:#636262;
+  font-family: monospace;
+  overflow:hidden;
+  white-space: nowrap;
+  border-right: .15em solid #999999;
+  width:0;
+  
+  animation: typing 5s steps(37, end) forwards, blink-caret 1s step-end 5 forwards;
+  animation-delay: 35s;
+}
+
+.line9 {
+  color:#636262;
+  font-family: monospace;
+  overflow:hidden;
+  white-space: nowrap;
+  border-right: .15em solid #999999;
+  width:0;
+  
+  animation: typing 5s steps(40, end) forwards, blink-caret 1s step-end 5 forwards;
+  animation-delay: 40s;
+}
+
+.line10 {
+  color:#636262;
+  font-family: monospace;
+  overflow:hidden;
+  white-space: nowrap;
+  border-right: .15em solid #999999;
+  width:0;
+  
+  animation: typing 5s steps(41, end) forwards, blink-caret 1s step-end 5 forwards;
+  animation-delay: 45s;
+}
+
+.line11 {
+  color:#636262;
+  font-family: monospace;
+  overflow:hidden;
+  white-space: nowrap;
+  border-right: .15em solid #999999;
+  width:0;
+  
+  animation: typing 5s steps(36, end) forwards, blink-caret 1s step-end 5 forwards;
+  animation-delay: 50s;
+}
+
+.line12 {
+  color:#636262;
+  font-family: monospace;
+  overflow:hidden;
+  white-space: nowrap;
+  border-right: .15em solid #999999;
+  width:0;
+  
+  animation: typing 5s steps(36, end) forwards, blink-caret 1s step-end 5 forwards;
+  animation-delay: 55s;
+}
+
+.line13 {
+  color:#636262;
+  font-family: monospace;
+  overflow:hidden;
+  white-space: nowrap;
+  border-right: .15em solid #999999;
+  width:0;
+  
+  animation: typing 5s steps(18, end) forwards, blink-caret 1s step-end 5 forwards;
+  animation-delay: 60s;
+}
+
+
+/*
+.text {
+  color:#636262;
+  font-family: monospace;
+  overflow:hidden;
+  white-space: nowrap;
+  border-right: .15em solid #bebebe;
+  width:0;
+  
+  animation: typing 5s steps(465, end) forwards, blink-caret 1s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent; }
+  50% { border-color: #bebebe; }
+}
+*/
