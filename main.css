@@ -1,15 +1,129 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+    max-width:100%;
+}
+
 body {
-    background-color:#010133;
+    margin:0;
 }
 
-h1{
-    color:#ffffd6;
+.container {
+    background-image:radial-gradient(circle at center,#5b00b6 10%,#07063d 75%,black); 
+    height:100vh;
+    padding:10px;
+    
+    display:flex;
+    position:relative;
+    justify-content: space-evenly;
 }
 
-p{
-    color:#ffffd6;
+.logo {
+    position:fixed;
+    bottom:0;
+    right:0;
+    transform: scaleX(-1);
+    width:300px;
+    height:300px;
+    
+    animation:none;
 }
 
-ul{
+.star {
+    width:250px;
+    height:250px;
+}
+
+.first-website {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:-30px;
+    
+    position:absolute;
+    top:30px;
+    left:80px;
+}
+
+img {
+    animation: swing 2s ease-in-out infinite alternate;
+}
+
+@keyframes swing {
+  0% {
+    transform: rotate(-20deg);
+  }
+  100% {
+    transform: rotate(20deg);
+  }
+}
+
+.passion {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    position:absolute;
+    top:500px;
+    left:40px;
+}
+
+.structure {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    position:absolute;
+    top:400px;
+    left:450px;
+}
+
+.screensaver{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    position:absolute;
+    top:500px;
+    right:400px;
+}
+
+.final {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    position:absolute;
+    top:150px;
+    right:575px;
+}
+
+.journals {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    position:absolute;
+    top:35px;
+    right:70px;
+}
+
+span {
     color:#ffffd6;
+    font-family: "Schoolbell";
+}
+
+h1 {
+    font-family: "Freckle Face";
+    color:#ffffd6;
+    font-size: 75px;
+    margin:10px;
 }
